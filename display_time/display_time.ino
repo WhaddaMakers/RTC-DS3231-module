@@ -13,6 +13,7 @@ Andy Wickert
 5/15/2011
 
 Added help text and changed baudrate to standard 9600
+Added temperature readout
 Whadda (Velleman)
 22/03/2021
 
@@ -54,4 +55,7 @@ void loop() {
       Serial.print(clock.getMinute(), DEC);
       Serial.print(":");
       Serial.println(clock.getSecond(), DEC);
+
+      Serial.print("\t\tT=");
+      Serial.print(clock.getTemperature(), 2);
 }

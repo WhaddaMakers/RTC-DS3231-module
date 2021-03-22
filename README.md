@@ -7,7 +7,7 @@ This example shows how you can use the Whadda RTC DS3231 module (WPM352) with an
 * [![arduino-library-badge](https://www.ardu-badge.com/badge/DS3231.svg?)](https://www.ardu-badge.com/DS3231) DS3231 library by Andrew Wickert, Eric Ayars, Jean-Calude Wippler, Northern widget LLC 
 
 ## Wiring diagram
-![](./wiring_diagram.jpg)
+![](./wiring_diagram_bb.png)
 
 ## Usage
 
